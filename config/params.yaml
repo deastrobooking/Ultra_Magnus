@@ -1,0 +1,25 @@
+# Ultra Magnus Robot Configuration
+
+/**:
+  ros__parameters:
+    # Control parameters
+    max_speed: 1.0              # Maximum linear velocity (m/s)
+    safety_distance: 0.5        # Minimum safe distance to obstacles (m)
+    control_frequency: 100      # Control loop frequency (Hz)
+    
+    # Navigation parameters
+    goal_tolerance: 0.1         # Distance threshold to consider goal reached (m)
+    max_linear_velocity: 1.0    # Maximum linear velocity for navigation (m/s)
+    max_angular_velocity: 1.0   # Maximum angular velocity (rad/s)
+    
+    # Perception parameters
+    min_range: 0.1              # Minimum valid sensor range (m)
+    max_range: 10.0             # Maximum valid sensor range (m)
+    filter_window_size: 5       # Moving average filter window size
+    
+    # Safety parameters
+    emergency_stop_enabled: true
+    collision_check_enabled: true
+    
+    # Logging
+    log_level: "info"           # Log level: debug, info, warn, error

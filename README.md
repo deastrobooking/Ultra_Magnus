@@ -1,6 +1,8 @@
 # Ultra_Magnus
 RTOS &amp; ROS2 Software for Advanced Robotics
 # C++ Robotics Developer Starter Guide
+- [Google Scholar Robitcs TOp 100](https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_robotics)
+
 
 ## Table of Contents
 1. [Modern C++ Fundamentals](#1-modern-c-fundamentals)

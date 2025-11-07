@@ -2,8 +2,10 @@
 RTOS &amp; ROS2 Software for Advanced Robotics
 # C++ Robotics Developer Starter Guide
 - [Google Scholar Robitcs TOp 100](https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_robotics)
-
-
+## Nvidia 
+- [Isaac Lab Github](https://github.com/isaac-sim/IsaacLab)
+- [Isaac Lab Docs](https://isaac-sim.github.io/IsaacLab/main/index.html)
+- [Isaac Lab](https://developer.nvidia.com/isaac/lab) 
 ## Table of Contents
 1. [Modern C++ Fundamentals](#1-modern-c-fundamentals)
 2. [Robotics-Specific C++ Patterns](#2-robotics-specific-c-patterns)

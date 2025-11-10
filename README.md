@@ -14,7 +14,105 @@ RTOS &amp; ROS2 Software for Advanced Robotics
 5. [Project Structure & Best Practices](#5-project-structure--best-practices)
 6. [Learning Path](#6-learning-path)
 
-Here are some top resources and GitHub repositories for embedded humanoid robotics, including curated lists, open platforms, code libraries, and learning roadmaps:
+Here is a comprehensive resource list for the Humanoid Robotics Masterclass 2026 by The Construct Robotics Institute, enhanced with additional authoritative links, learning materials, and industry tools to support deep learning in humanoid robot design, simulation, electronics, control systems, and AI.
+
+***
+
+- **Overview**
+  - Mechanical Design, Kinematics, Dynamics, CAD Modeling
+  - Electronics: Sensors, Actuators, Motor Control, PCB Design
+  - Control Systems: PID, State-space, MPC, Whole-body control
+  - ROS 2, Gazebo Ignition Simulation practice
+  - Real robot programming: Unitree G1 & Poppy Robot 
+
+***
+
+### Prerequisite Learning Resources
+
+#### Mathematics & Physics Foundations
+- [Basic Maths for Robotics (The Construct)](https://app.theconstruct.ai/courses/53) 
+- [Engineering Mechanics: Statics (Coursera, Georgia Tech)](https://www.coursera.org/learn/engineering-mechanics-statics) 
+
+#### Programming Essentials
+- [C++ Essentials for Robotics (The Construct)](https://app.theconstruct.ai/courses/59) 
+- [Python Essentials for Robotics (The Construct)](https://app.theconstruct.ai/courses/58) 
+- Example: [Robotics Algorithms in C++ (Online Book)](https://www.roboteq.com/index.php/docman/miscellaneous/374-robotics-algorithms-in-c-programming/file) 
+
+#### Linux & ROS
+- [Linux Essentials for Robotics (The Construct)](https://app.theconstruct.ai/courses/40) 
+- [ROS 2 Training (The Construct)](https://www.theconstruct.ai/ros-developer/) 
+
+#### Basic Electronics
+- [Introduction to Electronics (Coursera)](https://www.coursera.org/learn/electronics) 
+- [PCB Design Guide (Altium)](https://resources.altium.com/p/pcb-design-guide) 
+
+***
+
+### Simulation & Robot Development
+
+#### Robot Operating System (ROS 2)
+- [ROS 2 Official Documentation](https://docs.ros.org/en/rolling/index.html) 
+- [Open-RMF Training (The Construct)](https://www.theconstruct.ai/open-rmf-training/) 
+
+#### Gazebo Ignition Simulation
+- [Gazebo Official Simulator](https://gazebosim.org/) 
+- [Simulated Robots with Gazebo (Construct Course)](https://www.theconstruct.ai/robotics-simulation/) 
+
+#### Humanoid Robot Kits
+- [Poppy Robot Project](https://www.poppy-project.org/en/) 
+- [Unitree Robotics (Unitree G1 Details)](https://www.unitree.com/products/unitree-g1/) 
+
+***
+
+### Advanced Control Systems and AI
+
+#### Humanoid Control Tutorials
+- [Modern Robotics: Mechanics, Planning, and Control (Northwestern Textbook)](http://modernrobotics.org/) 
+- [Robotics: State Estimation and Control (MIT OCW)](https://ocw.mit.edu/courses/6-832-underactuated-robotics-spring-2020/) 
+- [AI for Robotics (Coursera, Georgia Tech)](https://www.coursera.org/learn/ai-for-robotics) 
+
+#### Full Robot Projects & Monitoring
+- [Behavior Trees (ROS Wiki)](https://wiki.ros.org/behavior_tree) 
+- [Visual Navigation Algorithms (OpenCV & SLAM)](https://opencv.org/) 
+
+***
+
+### Electronics and Power
+
+- [Motor Control Theory (Texas Instruments)](https://www.ti.com/motor-drivers/overview.html) 
+- [Battery Management Systems (Analog Devices)](https://www.analog.com/en/applications/technology/battery-management.html) 
+
+***
+
+### Support, Community & Events
+
+- [The Construct Robotics Forum](https://get-help.theconstruct.ai/) 
+- [ROS Developers Podcast](https://www.theconstruct.ai/ros-developers-podcast/) 
+- [Robotics Developers Day & ROS Awards](https://www.theconstruct.ai/events/) 
+
+***
+
+### Recommended Reference Books
+
+| Title                                                             | Author(s)                      | Focus Area                                               |
+|-------------------------------------------------------------------|-------------------------------|---------------------------------------------------------|
+| Modern Robotics: Mechanics, Planning, and Control                 | Lynch & Park                  | Kinematics, planning, control theory             |
+| Introduction to Autonomous Robots                                 | Burgard, Siegwart, Nourbakhsh | Fundamentals of mobile robots                    |
+| Robotics: Control, Sensing, Vision, and Intelligence              | Fu, Gonzalez, Lee             | Sensors, vision, controls                        |
+| Humanoid Robotics: A Reference                                    | Goswami & Vadakkepat          | Comprehensive humanoid systems                   |
+
+***
+
+### Industry Tools and Open Source Resources
+
+- [Open Robotics (ROS & Gazebo Providers)](https://www.openrobotics.org/) 
+- [GitHub - ROS2 Awesome List](https://github.com/fkromer/awesome-ros2) 
+- [Simulink Robotics Control Demos (MathWorks)](https://www.mathworks.com/solutions/robotics.html) 
+- [KiCad – Free PCB Design Software](https://www.kicad.org/) 
+- [FreeCAD – Open-Source CAD Tool](https://www.freecadweb.org/) 
+
+***
+
 
 ### 1. Curated Lists & Roadmaps
 - **Awesome Embedded**: Curated frameworks, libraries, and tools for embedded development (from C/Rust libraries to RTOS and MicroPython) — broadly applicable to embedded robotics.  

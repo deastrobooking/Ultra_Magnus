@@ -16,6 +16,16 @@ RTOS &amp; ROS2 Software for Advanced Robotics
 
 ---
 
+* Core runtime/comms (Tokio; QUIC via Quinn; Zenoh & RustDDS; DTN BPv7) and where each fits, with official specs and docs.
+* ROS 2 integration (ros2_control, colcon) plus micro-ROS for MCU-class nodes.
+* Serialization stacks (prost/Cap’n Proto/FlatBuffers), memory/queue crates (heapless, bbqueue, smallvec, bytes, bumpalo, slotmap, generational-arena), storage (sled/redb; Arrow/Parquet), observability (tracing, OpenTelemetry). ([Docs.rs][1])
+* Fault-tolerance bits (Reed–Solomon; EDAC pointers), real-time Linux notes (PREEMPT_RT + `mlockall`).
+* On-device AI (ONNX Runtime Rust, tch-rs/LibTorch, Candle, safetensors) and data formats you’ll likely use in space-constrained pipelines.
+* Hardware shortlist with direct docs: Jetson Orin, i.MX 8M Plus, TI AM64x/AM67A, STM32H7, ESP32-S3, Microchip PolarFire/RT PolarFire, AMD/Xilinx space-grade Versal, Gaisler GR740, plus accelerators (Hailo-8, Coral Edge TPU, Movidius notes).
+[1]: https://docs.rs/arrow2?utm_source=chatgpt.com "arrow2 - Rust"
+
+
+
 ## 1. Modern C++ Fundamentals
 
 ### Core C++17/20 Features for Robotics

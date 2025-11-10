@@ -856,4 +856,284 @@ void processSensorData() {
 - **Tools**: GCC/Clang, GDB, Valgrind, Clang-Tidy
 - **Platforms**: Ubuntu 22.04, ROS 2 Humble
 
-This guide provides a solid foundation for starting C++ robotics development while emphasizing modern practices that will serve you well in production environments.
+
+Here are authoritative URLs for the recommended books, courses, libraries, simulation platforms, open-source projects, and professional communities featured throughout the Ultimate Humanoid Robotics Resource Guide. Each resource is matched directly with its website or hosting platform for timely access and reference.
+
+***
+
+### 📚 Foundational Knowledge
+
+**Mathematics for Robotics**
+- “Mathematics for Robotics” by Peter Corke (free online chapters):  
+  https://petercorke.com/toolboxes/robotics-toolbox/
+- MIT 18.06 Linear Algebra (OCW):  
+  https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/
+- Khan Academy Linear Algebra & Calculus:  
+  https://www.khanacademy.org/math/linear-algebra  
+  https://www.khanacademy.org/math/calculus-1
+- "Probability and Statistics for Engineering" by Devore:  
+  https://www.cengage.com/c/probability-and-statistics-for-engineering-and-the-sciences-9e-devore/9781305251809PF/
+
+**Physics & Mechanics**
+- “Classical Mechanics” by John Taylor:  
+  https://global.oup.com/ushe/product/classical-mechanics-9781891389221
+- MIT 8.01 Physics I (OCW):  
+  https://ocw.mit.edu/courses/physics/8-01sc-classical-mechanics-fall-2016/
+- PhET Interactive Simulations:  
+  https://phet.colorado.edu/
+
+***
+
+### 🤖 Core Robotics Fundamentals
+
+**ROS 2 & Simulation**
+- ROS 2 Official Tutorials:  
+  https://docs.ros.org/en/rolling/index.html
+- The Construct ROS 2 Courses:  
+  https://www.theconstruct.ai/
+- “Mastering ROS 2” by Lentin Joseph:  
+  https://www.packtpub.com/product/mastering-ros-for-robotics-programming-second-edition/9781788623396
+- ROS 2 Awesome List (GitHub):  
+  https://github.com/fkromer/awesome-ros2
+
+**Gazebo/Ignition Simulation**
+- Gazebo Official Simulator:  
+  https://gazebosim.org/
+- Webots:  
+  https://cyberbotics.com/
+- MuJoCo:  
+  https://mujoco.org/
+- NVIDIA Isaac Sim:  
+  https://developer.nvidia.com/isaac-sim
+
+***
+
+### Programming Foundations
+
+**C++ for Robotics**
+- “Effective Modern C++” by Scott Meyers:  
+  https://www.oreilly.com/library/view/effective-modern-c/9781491908419/
+- C++ for Robotics (The Construct):  
+  https://app.theconstruct.ai/courses/59
+- LeetCode for algorithm practice:  
+  https://leetcode.com/
+
+**Python for Robotics**
+- “Python for Robotics” (The Construct):  
+  https://app.theconstruct.ai/courses/58
+- NumPy:  
+  https://numpy.org/
+- SciPy:  
+  https://scipy.org/
+- Matplotlib:  
+  https://matplotlib.org/
+- OpenCV:  
+  https://opencv.org/
+
+***
+
+### 🦾 Humanoid-Specific Knowledge
+
+**Kinematics & Dynamics**
+- “Rigid Body Dynamics” by Roy Featherstone:  
+  https://www.springer.com/gp/book/9780387743125
+- Stanford CS223A - Introduction to Robotics:  
+  https://web.stanford.edu/class/cs223a/
+- Khatib whole-body control paper:  
+  https://ieeexplore.ieee.org/document/390988
+- PRATT balance control paper:  
+  https://ieeexplore.ieee.org/document/865360
+- Drake (MIT robot dynamics toolkit):  
+  https://drake.mit.edu/
+
+**Control Systems**
+- “Robot Dynamics and Control” by Spong et al.:  
+  https://www.wiley.com/en-us/Robot+Modeling+and+Control%2C+2nd+Edition-p-9780471649908
+- MIT Underactuated Robotics (Russ Tedrake, OCW):  
+  https://underactuated.mit.edu/
+- OCS2 (Optimal Control Software):  
+  https://github.com/leggedrobotics/ocs2
+- MATLAB Robotics System Toolbox:  
+  https://www.mathworks.com/products/robotics.html
+
+***
+
+### 🔧 Hardware & Electronics
+
+**Motors/Actuators**
+- Maxon Motors (technical docs):  
+  https://www.maxongroup.com/maxon/view/content/technical-documentation
+- Harmonic Drive:  
+  https://harmonicdrive.net/
+- “Electric Motors and Drives” by Austin Hughes:  
+  https://www.elsevier.com/books/electric-motors-and-drives/hughes/978-0-08-098332-5
+
+**Sensors**
+- Bosch Sensortec:  
+  https://www.bosch-sensortec.com/
+- TDK InvenSense:  
+  https://www.invensense.tdk.com/
+- “Applied Inertial Navigation” by Groves:  
+  https://www.springer.com/gp/book/9783030239561
+- ROS Sensor Drivers:  
+  https://index.ros.org/doc/ros2/Installation/Foxy/Linux-Install-Debians/#install-ros-2-packages
+
+**Power Management**
+- Battery University:  
+  https://batteryuniversity.com/
+- IEC 62133 standard summary:  
+  https://webstore.iec.ch/publication/27200
+- LTspice simulation:  
+  https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html
+
+***
+
+### 🧠 AI & Advanced Algorithms
+
+**Computer Vision**
+- CS231n Convolutional Neural Networks (Stanford):  
+  http://cs231n.stanford.edu/
+- “Computer Vision: Algorithms and Applications” by Szeliski:  
+  http://szeliski.org/Book/
+- Detectron2 (Meta AI):  
+  https://github.com/facebookresearch/detectron2
+
+**Machine Learning**
+- CS229 Machine Learning (Stanford):  
+  https://cs229.stanford.edu/
+- PyTorch:  
+  https://pytorch.org/
+- TensorFlow:  
+  https://www.tensorflow.org/
+- Stable Baselines3:  
+  https://stable-baselines3.readthedocs.io/
+- OpenAI Gym:  
+  https://www.gymlibrary.dev/
+- DeepMind locomotion papers:  
+  https://deepmind.com/research/publications
+
+**Behavior Trees**
+- BehaviorTree.CPP:  
+  https://github.com/BehaviorTree/BehaviorTree.CPP
+- “Behavior Trees in Robotics” by Colledanchise:  
+  https://www.springer.com/gp/book/9783030056397
+- ROS 2 Behavior Tree Tutorial:  
+  https://navigation.ros.org/tutorials/docs/navigation2_with_behavior_trees.html
+
+***
+
+### 🛠️ Development Tools & Platforms
+
+**Simulation**
+- CoppeliaSim (V-REP):  
+  https://www.coppeliarobotics.com/
+- RoboDK:  
+  https://robodk.com/
+
+**CAD & Mechanical**
+- SolidWorks:  
+  https://www.solidworks.com/
+- Fusion 360:  
+  https://www.autodesk.com/products/fusion-360/
+- FreeCAD:  
+  https://www.freecadweb.org/
+- Blender:  
+  https://www.blender.org/
+- GrabCAD:  
+  https://grabcad.com/
+- Onshape:  
+  https://www.onshape.com/
+- McMaster-Carr CAD Library:  
+  https://www.mcmaster.com/cad-library/
+
+**Electronics Design**
+- KiCad:  
+  https://www.kicad.org/
+- LTspice:  
+  https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html
+- EAGLE:  
+  https://www.autodesk.com/products/eagle/
+
+***
+
+### 📋 Projects & Open Source
+
+**Poppy Project (Open humanoid platform):**  
+https://www.poppy-project.org/en/
+
+**Open Dynamic Robot Initiative:**  
+https://open-dynamic-robot-initiative.github.io/
+
+**Stanford Doggo:**  
+https://github.com/stanfordroboticsclub/doggo
+
+**Unitree Robotics SDK (Unitree G1):**  
+https://www.unitree.com/download/
+
+***
+
+### 🏛️ Research, Community, and Conferences
+
+**Stanford Robotics Lab:**  
+https://robotics.stanford.edu/
+
+**MIT CSAIL:**  
+https://www.csail.mit.edu/research/robotics
+
+**CMU Robotics Institute:**  
+https://www.ri.cmu.edu/
+
+**University of Tokyo JSK Lab:**  
+https://www.jsk.t.u-tokyo.ac.jp/index_en.html
+
+**IIT Humanoid & Human Centered Mechatronics Lab:**  
+https://www.iit.it/research/centers/robotics/humanoid-and-human-centered-mechatronics
+
+**IEEE-RAS Humanoids Conference:**  
+https://www.humanoids2023.org/  
+**ICRA:**  
+https://www.ieee-icra.org/  
+**IROS:**  
+https://www.iros2023.org/  
+**RSS:**  
+https://roboticsconference.org/
+
+***
+
+### 📈 Career & Job Search
+
+**ROS Jobs:**  
+https://jobs.ros.org/
+
+**IEEE RAS Job Board:**  
+https://www.ieee-ras.org/ras-job-board
+
+**Boston Dynamics Careers:**  
+https://www.bostondynamics.com/careers/
+
+**Tesla Robotics Careers:**  
+https://www.tesla.com/careers/search/?category=robotics
+
+**Figure AI Careers:**  
+https://www.figure.ai/careers
+
+**Unitree Robotics Careers:**  
+https://www.unitree.com/aboutus/hr/
+
+***
+
+### 🆘 Troubleshooting & Support
+
+**ROS Answers:**  
+https://answers.ros.org/
+
+**Robotics Stack Exchange:**  
+https://robotics.stackexchange.com/
+
+**PlotJuggler:**  
+https://www.plotjuggler.io/
+
+**Wireshark:**  
+https://www.wireshark.org/
+
+***

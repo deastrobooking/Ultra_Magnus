@@ -14,8 +14,6 @@ RTOS &amp; ROS2 Software for Advanced Robotics
 5. [Project Structure & Best Practices](#5-project-structure--best-practices)
 6. [Learning Path](#6-learning-path)
 
-Here is a comprehensive resource list for the Humanoid Robotics Masterclass 2026 by The Construct Robotics Institute, enhanced with additional authoritative links, learning materials, and industry tools to support deep learning in humanoid robot design, simulation, electronics, control systems, and AI.
-
 ***
 
 - **Overview**
